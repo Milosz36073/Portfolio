@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miłosz Kita">
+    <meta name="description" content="Cześć, witam Cię na moim portfolio, zapraszam do obejrzenia moich projektów">
+
+    <title>Miłosz Kita - Portfolio</title>
+
+    <meta name="keywords" content="HTML, CSS, JavaScript, Webdevelopment, Web-dev, Web-developer, frontend, developer, programista">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta name="rating" content="general">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js">
+    </script>
+
+    <link rel="stylesheet" href="style/main.bundle.css">
+    <link rel="stylesheet" href="style/css/fontello.css">
+</head>
+
+<body>
+    <div class="contener">
+        <main data-router-wrapper class="content">
+            <section data-router-view="proj" class="proj content__proj">
+
+                <div class=" proj__header">
+                    <h1 class="content__proj--title">Dynamo</h1>
+                </div>
+                <div class="proj__wrapper">
+                    <div class="image proj__image">
+                        <div class="image__wrapper ">
+                            <img src="./images/dynamo3.png" alt="strona główna sklepu dynamo" class="image__proj image__wrapper--bs image__wrapper--border">
+                        </div>
+                        <span class="image__title"><a href="#">Projekt w trakcie realizacji</a></span>
+                    </div>
+                </div>
+                <div class="proj__wrapper-2">
+                    <div class="proj-content">
+                        <h1 class="proj-content__title">#projekt_3</h1>
+                        <span class="proj-content__description">Projekt strony głównej sklepu Dynamo</span>
+                    </div>
+                    <div class="work proj-content__work">
+                        <span class="work__title">Wykonane prace</span>
+                        <ol class="work__list">
+                            <li class="work__item">Projekt graficzny</li>
+                            <li class="work__item">Implementacja</li>
+                        </ol>
+                    </div>
+                    <div class="technology proj-content__technology">
+                        <span class="technology__title">Zastosowane technologie</span>
+                        <div class="technology__wrapper">
+                            <h2 class="technology__kind">_Frontend</h2>
+                            <ul class="technology__list">
+                                <li class="technology__item">Html5</li>
+                                <li class="technology__item">Bootstrap</li>
+                                <li class="technology__item">js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon proj__icon">
+                    <a class="list__href" href="about-me"><i class="demo-icon icon-down"></i></a>
+                </div>
+                <div class="proj-content__link proj-content__link--narrow">
+                    <a href="#" class="link__item">Projekt w trakcie realizacji</a>
+                </div>
+                <div class="menu contener__menu">
+                    <ul class="list menu__list">
+                        <li class="menu__item menu__item--mobile"><a class="menu__href" href="home">Home</a></li>
+                        <li class="menu__item"><a class="menu__href " href="project-one">Projekt 1</a></li>
+                        <li class="menu__item"><a class="menu__href" href="project-two">Projekt 2</a></li>
+                        <li class="menu__item"><a class="menu__href menu__href--selected" href="project-three">Projekt 3</a></li>
+                        <li class="menu__item menu__item--mobile"><a class="menu__href" href="about-me">O mnie</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <script src="main.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miłosz Kita">
+    <meta name="description" content="Cześć, witam Cię na moim portfolio, zapraszam do obejrzenia moich projektów">
+
+    <title>Miłosz Kita - Portfolio</title>
+
+    <meta name="keywords" content="HTML, CSS, JavaScript, Webdevelopment, Web-dev, Web-developer, frontend, developer, programista">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta name="rating" content="general">
+
+    <!-- Open Graph-->
+    <meta property="og:title" content="Miłosz Kita - portfolio">
+    <meta property="og:description" content="Cześć, zapraszam do obejrzenia moich projektów">
+    <meta property="og:image" content="https://www.miloszkita.com/logo.png">
+    <meta property="og:url" content="https://www.miloszkita.com">
+
+    <meta name="twitter:title" content="Miłosz Kita - portfolio">
+    <meta name="twitter:description" content="Cześć, zapraszam do obejrzenia moich projektów">
+    <meta name="twitter:image" content=" https://www.miloszkita.com/logo.png">
+    <meta name="twitter:card" content="https://www.miloszkita.com">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js">
+    </script>
+    <link rel="stylesheet" href="style/main.bundle.css">
+    <link rel="stylesheet" href="style/css/fontello.css">
+</head>
+
+<body>
+    <div class="contener">
+        <main data-router-wrapper class="content">
+            <section data-router-view="home" class="home content__home">
+                <nav class="nav home__nav">
+                    <img class="nav__image" src="images/Group 20@2x.png" alt="Logo">
+                    <ul class="list nav__list">
+                        <li class="list__item"><a class="list__href" href="home">Strona główna</a></li>
+                        <li class="list__item"><a class="list__href" href="project-one">Projekty</a></li>
+                        <li class="list__item"><a class="list__href" href="about-me">O mnie</a></li>
+                    </ul>
+                    <ul class="list nav__list-me">
+                        <li class="list__item list__href">Miłosz Kita</li>
+                        <li class="list__item--image ">
+                            <a class="list__image list__href" href="#"></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="hello home__hello">
+                    <h1 class="hello__name">Cześć, <br>tu Miłosz</h1>
+                    <h2 class="hello__about-me">Jestem młodym kreatywnym web-developerem. <br> Zapraszam do obejrzenia moich projektów</h2>
+                </div>
+                <div class="icon home__icon">
+                    <a class="list__href" href="project-one"><i class="demo-icon icon-down"></i></a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="main.bundle.js"></script>
+</body>
+
+</html>

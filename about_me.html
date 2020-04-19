@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miłosz Kita">
+    <meta name="description" content="Cześć, witam Cię na moim portfolio, zapraszam do obejrzenia moich projektów">
+
+    <title>Miłosz Kita - Portfolio</title>
+
+    <meta name="keywords" content="HTML, CSS, JavaScript, Webdevelopment, Web-dev, Web-developer, frontend, developer, programista">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta name="rating" content="general">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="style/main.bundle.css">
+    <link rel="stylesheet" href="style/css/fontello.css">
+</head>
+
+<body>
+    <div class="contener">
+        <main data-router-wrapper class="content">
+            <section data-router-view="about_me" class="content__about-me">
+
+                <div class="about-me__description">
+                    <div class="about-me__title-wrapper">
+                        <h1 class="about-me__title">O mnie</h1>
+                    </div>
+                    <span class="about-me__subtitle">Zajmuję się tworzeniem stron internetowych. Tworząc projekty, szczególną uwagę skupiam na aktualnych trendach w web-designie. Istotnym elementem dla mnie, jest również przejrzystość i łatwa nawigacja strony. Jeśli zainteresowały Cię moje projekty, zapraszam do kontaku ze mną. </span>
+                </div>
+                <div class="about-me__wrapper">
+                    <div class="about-me__technology">
+                        <h2 class="technology__use">Używane technologie</h2>
+                        <div class="technology__kind technology__kind--bottom">
+                            <h2 class="technology__title">_Frontend</h2>
+                            <ul class="list technology__list">
+                                <li class="list__item">html5</li>
+                                <li class="list__item">Css - Sass/Less</li>
+                                <li class="list__item">JavaScript</li>
+                                <li class="list__item">Bootstrap</li>
+                                <li class="list__item">Gulp/Webpack</li>
+                            </ul>
+                        </div>
+                        <div class="technology__kind">
+                            <h2 class="technology__title">_Backend</h2>
+                            <ul class="list technology__list">
+                                <li class="list__item">Php - Codeigniter</li>
+                                <li class="list__item">MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me__contact">
+                    <h2 class="contact__title">Kontakt</h2>
+                    <ul class="contact__list">
+                        <li class="contact__item"><a href="mailto:milosz.kita12@gmail.com" class="contact__href" target="_blank" rel="noopener noreferrer">Email</a></li>
+                        <li class="contact__item"><a href="https://github.com/Milosz36073" class="contact__href" target="_blank" rel="noopener noreferrer">Github</a></li>
+                        <!-- <li class="contact__item"><a href="#" class="contact__href">Linkedin</a></li> -->
+                    </ul>
+                </div>
+                <div class="menu contener__menu">
+                    <ul class="list menu__list">
+                        <li class="menu__item menu__item--mobile"><a class="menu__href" href="home">Home</a></li>
+                        <li class="menu__item"><a class="menu__href " href="project-one">Projekt 1</a></li>
+                        <li class="menu__item"><a class="menu__href" href="project-two">Projekt 2</a></li>
+                        <li class="menu__item"><a class="menu__href" href="project-three">Projekt 3</a></li>
+                        <li class="menu__item "><a class="menu__href" href="about-me">O mnie</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <script src="main.bundle.js"></script>
+</body>
+
+</html>
